@@ -184,7 +184,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                       AnimatedPositioned(
                         duration: defaultDuration,
                         top: _controller.selectedBottomTab == 0
-                            ? constraints.maxHeight * 0.13
+                            ? constraints.maxHeight * 0.19
                             : constraints.maxHeight / 2,
                         child: AnimatedOpacity(
                           duration: defaultDuration,
@@ -198,7 +198,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                       AnimatedPositioned(
                         duration: defaultDuration,
                         bottom: _controller.selectedBottomTab == 0
-                            ? constraints.maxHeight * 0.17
+                            ? constraints.maxHeight * 0.19
                             : constraints.maxHeight / 2,
                         child: AnimatedOpacity(
                           duration: defaultDuration,
